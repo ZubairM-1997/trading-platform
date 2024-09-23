@@ -17,7 +17,7 @@ Key Features:
 
 2. Clone the repository:
    ```
-   git clone 
+   git clone
    cd trading-platform
    ```
 
@@ -49,34 +49,6 @@ This will execute all unit tests and integration tests.
 ## 4. Project Structure
 
 The project follows a standard Spring Boot application structure:
-
-```
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── example/
-│   │           └── tradingplatform/
-│   │               ├── Application.java
-│   │               ├── controller/
-│   │               │   └── TradingController.java
-│   │               ├── service/
-│   │               │   ├── TradingService.java
-│   │               │   ├── MatchingEngine.java
-│   │               │   └── SimpleMatchingEngine.java
-│   │               └── model/
-│   │                   ├── Order.java
-│   │                   ├── OrderBook.java
-│   │                   └── Side.java
-│   └── resources/
-│       └── application.properties
-└── test/
-    └── java/
-        └── com/
-            └── example/
-                └── tradingplatform/
-                    └── TradingControllerIntegrationTest.java
-```
 
 Key Classes:
 - `Application.java`: The main entry point of the application.
